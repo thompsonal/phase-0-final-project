@@ -142,7 +142,33 @@ a:visited {
     opacity: 0.8;
 }
 
-@media screen and (min-width: 992px){
+.contact-button {
+    display: flex;
+    margin: 2rem 0;
+    border: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (min-width: 992px) {
     .about-wrapper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
